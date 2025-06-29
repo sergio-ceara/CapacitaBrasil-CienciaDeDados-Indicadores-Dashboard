@@ -41,3 +41,17 @@ Você pode instalá-las via pip:
 
 ```bash
 pip install pandas gspread google-api-python-client google-auth-httplib2 google-auth-oauthlib python-dotenv openpyxl
+
+2.2. Configuração das Credenciais do Google API
+    1. Habilite as APIs: No Google Cloud Console, certifique-se de que as APIs Google Drive API e Google Sheets API estejam habilitadas para o seu projeto.
+    2. Crie as Credenciais: Gere um arquivo de credenciais JSON do tipo "Conta de Serviço".
+    3. Salve o Arquivo: Transfira o arquivo JSON baixado para a pasta raiz do seu projeto ou ajuste o caminho em .env.
+2.3. Configuração do Arquivo .env
+Crie um arquivo chamado .env na raiz do seu projeto e preencha-o com as suas configurações. Este arquivo é crucial para personalizar o comportamento do programa sem alterar o código-fonte e está comentado para orientação de preenchimento.
+2.4. Execução do Programa
+Com todas as configurações feitas, você pode executar o programa:
+Bash
+python capacita-brasil_bancos-final_indicadores.py  
+O programa irá gerar logs detalhados de sua execução para que você possa acompanhar o processamento e identificar quaisquer problemas.
+3. Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para reportar bugs, sugerir melhorias ou enviar pull requests com novas funcionalidades.
