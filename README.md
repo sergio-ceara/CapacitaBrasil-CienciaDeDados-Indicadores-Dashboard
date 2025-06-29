@@ -35,7 +35,7 @@ Certifique-se de ter o Python instalado (versão 3.x recomendada) e as seguintes
 - `google-auth-httplib2`
 - `google-auth-oauthlib`
 - `python-dotenv`
-- `openpyxl` (para a função `celula_intervalo_para_linhas_colunas`)
+- `openpyxl`
 
 Você pode instalá-las via pip:
 
@@ -56,5 +56,29 @@ Com todas as configurações feitas, você pode executar o programa:
 python capacita-brasil_bancos-final_indicadores.py
 ```
 O programa irá gerar logs detalhados de sua execução para que você possa acompanhar o processamento e identificar quaisquer problemas.
-### 3. Contribuição
+
+## 3. Criando um Executável com PyInstaller
+
+Caso queira distribuir o programa como um executável, você pode criar um arquivo executável para Windows, Linux ou Mac usando o PyInstaller.
+### 3.1. Instalando o PyInstaller
+
+Primeiro, instale o PyInstaller com o seguinte comando:
+
+pip install pyinstaller
+
+### 3.2. Criando o Executável
+
+Depois de instalar o PyInstaller, basta executar o seguinte comando no terminal dentro do diretório onde está o arquivo capacita-brasil_bancos-final_indicadores.py:
+
+pyinstaller --onefile capacita-brasil_bancos-final_indicadores.py
+
+A opção --onefile faz com que o PyInstaller crie um único arquivo executável.
+### 3.3. Localização do Executável
+
+Após a execução do comando, o PyInstaller criará uma pasta chamada dist. Dentro dessa pasta, você encontrará o arquivo executável (capacita-brasil_bancos-final_indicadores.exe no caso do Windows).
+3.4. Executando o Executável
+
+Agora você pode executar o programa diretamente, sem precisar de um ambiente Python configurado. Basta rodar o arquivo executável gerado.
+
+### 4. Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para reportar bugs, sugerir melhorias ou enviar pull requests com novas funcionalidades.
