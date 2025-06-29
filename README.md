@@ -63,15 +63,15 @@ Caso queira distribuir o programa como um executável, você pode criar um arqui
 ### 3.1. Instalando o PyInstaller
 
 Primeiro, instale o PyInstaller com o seguinte comando:
-
+```bash
 pip install pyinstaller
-
+```
 ### 3.2. Criando o Executável
 
 Depois de instalar o PyInstaller, basta executar o seguinte comando no terminal dentro do diretório onde está o arquivo capacita-brasil_bancos-final_indicadores.py:
-
+```bash
 pyinstaller capacita-brasil_bancos-final_indicadores.py --onefile --noconsole --name "CapacitaBrasilEquipe8-5Indicadores" --icon=capacita-brasil.ico --add-data "funcoes.py;." --add-data "template_tarefa.xml;." --add-data "README.md;."
-
+```
 A opção --onefile faz com que o PyInstaller crie um único arquivo executável.
 ### 3.3. Localização do Executável
 
