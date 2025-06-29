@@ -43,9 +43,9 @@ Você pode instalá-las via pip:
 pip install pandas gspread google-api-python-client google-auth-httplib2 google-auth-oauthlib python-dotenv openpyxl
 ```
 ### 2.2. Configuração das Credenciais do Google API
-    1. Habilite as APIs: No Google Cloud Console, certifique-se de que as APIs Google Drive API e Google Sheets API estejam habilitadas para o seu projeto.
-    2. Crie as Credenciais: Gere um arquivo de credenciais JSON do tipo "Conta de Serviço".
-    3. Salve o Arquivo: Transfira o arquivo JSON baixado para a pasta raiz do seu projeto ou ajuste o caminho em .env.
+- 1. Habilite as APIs: No Google Cloud Console, certifique-se de que as APIs Google Drive API e Google Sheets API estejam habilitadas para o seu projeto.
+- 2. Crie as Credenciais: Gere um arquivo de credenciais JSON do tipo "Conta de Serviço".
+- 3. Salve o Arquivo: Transfira o arquivo JSON baixado para a pasta raiz do seu projeto ou ajuste o caminho em .env.
     
 ### 2.3. Configuração do Arquivo .env
 Crie um arquivo chamado .env na raiz do seu projeto e preencha-o com as suas configurações. Este arquivo é crucial para personalizar o comportamento do programa sem alterar o código-fonte e está comentado para orientação de preenchimento.
