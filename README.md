@@ -73,8 +73,8 @@ Depois de instalar o PyInstaller, basta executar o seguinte comando no terminal 
 pyinstaller capacita-brasil_bancos-final_indicadores.py --onefile --noconsole --name "CapacitaBrasilEquipe8-5Indicadores" --icon=capacita-brasil.ico --add-data "funcoes.py;." --add-data "template_tarefa.xml;."
 ```
  - Onde:
-    \  --onefile, faz com que o PyInstaller crie um único arquivo executável.
-    \  --icon=capacita-brasil.ico, acrescenta um ícone ao arquivo executável.
+    \-  --onefile, faz com que o PyInstaller crie um único arquivo executável.
+    \-  --icon=capacita-brasil.ico, acrescenta um ícone ao arquivo executável.
 ### 3.3. Localização do Executável
 
 Após a execução do comando, o PyInstaller criará uma pasta chamada dist. Dentro dessa pasta, você encontrará o arquivo executável (capacita-brasil_bancos-final_indicadores.exe no caso do Windows).
