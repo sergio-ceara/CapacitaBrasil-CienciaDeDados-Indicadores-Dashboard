@@ -1,6 +1,6 @@
 # MCTI FUTURO — Ministério da Ciência, Tecnologia e Inovação  
-## Capacita Brasil - Residência em TIC 20  
-### Ciência de Dados – Equipe 8_5  
+## Capacita Brasil - Residência em TIC 20
+### UECE 2025.1 - Ciência de dados - Equipe 8_5
 ### Processamento de Indicadores
 
 Este projeto, desenvolvido como parte da Residência em TIC 20 do Ministério da Ciência, Tecnologia e Inovação (MCTI Futuro) - Ciência de Dados, tem como objetivo principal processar dados de diversas fontes (Google Sheets) e gerar uma planilha com dados consolidados e formatados, servindo como banco de dados otimizado para visualização e análise num dashboard no Looker Studio.
